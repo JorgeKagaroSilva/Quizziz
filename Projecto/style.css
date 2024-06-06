@@ -1,7 +1,22 @@
+:root {
+    --main-white: #F6F6F6;
+    --icon-blue: #007AFF;
+    --fade-gray: #8E8E93;
+    --main-black: #000000;
+}
+
 body {
-    background-color: #000;
+    background-color: var(--main-black);
 }
 
 h1, h2, h3, h4, h5 {
-    color: #fff;
+    color: var(--main-white);
+}
+
+#rectangle {
+    height: 100px;
+    width: 750px;
+    background-color: var(--main-white);
+    position: absolute; top: 0%; left: 50%;
+    margin-left: -375px;
 }
