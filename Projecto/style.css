@@ -7,6 +7,7 @@
 
 body {
     background-color: var(--main-black);
+    overflow-y: hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -18,5 +19,21 @@ h1, h2, h3, h4, h5 {
     width: 750px;
     background-color: var(--main-white);
     position: absolute; top: 0%; left: 50%;
+    margin-left: -375px;
+}
+
+#background__box {
+    height: 80%;
+    width: 750px;
+    background-image: url("./Imagens/wallpaper.jpg");
+    position: absolute; top: 10%; left: 50%;
+    margin-left: -375px;
+}
+
+#rectangle__down {
+    height: 100px;
+    width: 750px;
+    background-color: var(--main-white);
+    position: absolute; top: 90%; left: 50%;
     margin-left: -375px;
 }
