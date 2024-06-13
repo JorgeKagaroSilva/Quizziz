@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #background__box {
-    height: 80%;
+    height: 83%;
     width: 750px;
     background-image: url("./Imagens/wallpaper.jpg");
     position: absolute; top: 10%; left: 50%;
@@ -31,9 +31,13 @@ h1, h2, h3, h4, h5 {
 }
 
 #rectangle__down {
-    height: 100px;
+    height: 75px;
     width: 750px;
     background-color: var(--main-white);
-    position: absolute; top: 90%; left: 50%;
+    position: absolute; top: 93%; left: 50%;
     margin-left: -375px;
+}
+
+#icon__pessoa {
+    border-radius: 50%;
 }
