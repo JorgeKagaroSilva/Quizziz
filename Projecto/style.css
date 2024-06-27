@@ -3,6 +3,7 @@
     --icon-blue: #007AFF;
     --fade-gray: #8E8E93;
     --main-black: #000000;
+    --cocoa: #C0C0C0;
 }
 
 body {
@@ -10,34 +11,46 @@ body {
     overflow-y: hidden;
 }
 
-h1, h2, h3, h4, h5 {
-    color: var(--main-white);
-}
-
 #rectangle {
-    height: 100px;
+    height: 70px;
     width: 750px;
-    background-color: var(--main-white);
+    background-color: var(--cocoa);
     position: absolute; top: 0%; left: 50%;
     margin-left: -375px;
 }
 
 #background__box {
-    height: 83%;
+    height: 840px;
     width: 750px;
     background-image: url("./Imagens/wallpaper.jpg");
-    position: absolute; top: 10%; left: 50%;
+    position: absolute; top: 7%; left: 50%;
     margin-left: -375px;
 }
 
 #rectangle__down {
     height: 75px;
     width: 750px;
-    background-color: var(--main-white);
+    background-color: var(--cocoa);
     position: absolute; top: 93%; left: 50%;
     margin-left: -375px;
 }
 
 #icon__pessoa {
     border-radius: 50%;
+    position: absolute; top: 15%; left: 10%;
+}
+
+#user__name {
+    color: var(--main-black);
+    position: absolute; top: -12%; left: 18%;
+    font-size: 140%;
+}
+
+#info__contato {
+    color: var(--main-black);
+    position: absolute; top: 35%; left: 18%;
+}
+
+#back__button {
+    position: absolute; top: 27%; left: 2%;
 }
