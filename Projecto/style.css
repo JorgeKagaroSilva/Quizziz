@@ -37,20 +37,44 @@ body {
 
 #icon__pessoa {
     border-radius: 50%;
-    position: absolute; top: 15%; left: 10%;
+    position: absolute; top: 14%; left: 9%;
+    height: 50px;
+    width: 50px;
 }
 
 #user__name {
     color: var(--main-black);
-    position: absolute; top: -12%; left: 18%;
+    position: absolute; top: -12%; left: 17%;
     font-size: 140%;
 }
 
 #info__contato {
     color: var(--main-black);
-    position: absolute; top: 35%; left: 18%;
+    position: absolute; top: 35%; left: 17%;
 }
 
 #back__button {
     position: absolute; top: 27%; left: 2%;
+}
+
+#text__box {
+    height: 40%;
+    width: 50%;
+    position: absolute; top: 26%; left: 8%;
+}
+
+input::placeholder {
+   font-size: 20px;
+   position: absolute; top: 14%; left: 16%;
+}
+
+input {
+    font-size: 20px;
+}
+
+#button__send {
+    font-size: 20px;
+    height: 48%;
+    width: 10%;
+    position: absolute; top: 26%; left: 62%;
 }
