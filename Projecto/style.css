@@ -1,80 +1,44 @@
-:root {
-    --main-white: #F6F6F6;
-    --icon-blue: #007AFF;
-    --fade-gray: #8E8E93;
-    --main-black: #000000;
-    --cocoa: #C0C0C0;
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+
 }
 
 body {
-    background-color: var(--main-black);
+    background-image: url(./Imagens/wallpaper.jpg);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     overflow-y: hidden;
 }
 
-#rectangle {
-    height: 70px;
-    width: 750px;
-    background-color: var(--cocoa);
-    position: absolute; top: 0%; left: 50%;
-    margin-left: -375px;
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
 }
 
-#background__box {
-    height: 840px;
-    width: 750px;
-    background-image: url("./Imagens/wallpaper.jpg");
-    position: absolute; top: 7%; left: 50%;
-    margin-left: -375px;
+h1{
+    color: var(--cor-destaque);
 }
 
-#rectangle__down {
-    height: 75px;
-    width: 750px;
-    background-color: var(--cocoa);
-    position: absolute; top: 93%; left: 50%;
-    margin-left: -375px;
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
 }
 
-#icon__pessoa {
-    border-radius: 50%;
-    position: absolute; top: 14%; left: 9%;
-    height: 50px;
-    width: 50px;
-}
-
-#user__name {
-    color: var(--main-black);
-    position: absolute; top: -12%; left: 17%;
-    font-size: 140%;
-}
-
-#info__contato {
-    color: var(--main-black);
-    position: absolute; top: 35%; left: 17%;
-}
-
-#back__button {
-    position: absolute; top: 27%; left: 2%;
-}
-
-#text__box {
-    height: 40%;
-    width: 50%;
-    position: absolute; top: 26%; left: 8%;
-}
-
-input::placeholder {
-   font-size: 20px;
-   position: absolute; top: 14%; left: 16%;
-}
-
-input {
-    font-size: 20px;
-}
-
-#button__send {
-    font-size: 20px;
-    height: 48%;
-    width: 10%;
-    position: absolute; top: 26%; left: 62%;
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
 }
