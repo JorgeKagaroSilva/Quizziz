@@ -15,10 +15,15 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow-y: hidden;
+    font-size: 25px;
+    font-family: "Sevillana", cursive;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 .caixa-principal{
-    background-color: var(--cor-principal);
+    background-image: url(./Imagens/cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -27,6 +32,7 @@ body {
 
 h1{
     color: var(--cor-destaque);
+    text-shadow: 0 0 3px #000000, 0 0 5px #D7F9FF;
 }
 
 button {
