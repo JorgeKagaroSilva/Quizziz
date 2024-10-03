@@ -21,13 +21,16 @@ body {
 }
 
 .caixa-principal{
-    background-image: url(./Imagens/cloud.jpg);
+    display:inline-block; /* ou float:left, vai do seu uso */
+    color:#fff;
+    border-top:70px solid grey;
+    border-left:150px solid transparent;
+    background-clip: padding-box;
+    padding: 0 10px 10px 10px;
+
+    background-color: grey;
     background-repeat: no-repeat;
     background-size: 150%;
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
 }
 
 h1{
